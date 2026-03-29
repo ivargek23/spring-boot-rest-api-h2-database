@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity //mark class as entity
-@Table //defining class name as Table name
+@Table(name = "students") //defining class name as Table name
 public class Student {
 	
 	@Column //defining id as primary key
